@@ -1,0 +1,18 @@
+PODS:
+  - YoFoundation (0.1.0):
+    - "YoFoundation/YoString+Normal (= 0.1.0)"
+  - "YoFoundation/YoString+Normal (0.1.0)"
+
+DEPENDENCIES:
+  - YoFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  YoFoundation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YoFoundation: 5f467d44e2f631bf00321702c542cb2019255dab
+
+PODFILE CHECKSUM: 22abcebf9701b98c6a4b1ff642310347a90a4ed9
+
+COCOAPODS: 1.11.2
