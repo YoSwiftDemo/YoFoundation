@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'YoFoundation_Example' do
+  pod 'YoFoundation', :path => '../'
+
+  target 'YoFoundation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
