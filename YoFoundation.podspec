@@ -1,42 +1,62 @@
-#
-# Be sure to run `pod lib lint YoFoundation.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = 'YoFoundation'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of YoFoundation.'
+# 项目名
+s.name             = 'YoFoundation'
+# 版本号
+s.version          = '0.1.1'
+# 简单描述
+s.summary          = 'Yo Foundation of swift'
+# 详细描述
+s.description      = <<-DESC
+Swift Foundation扩展
+DESC
+# 项目的主页
+s.homepage         = 'https://github.com/YoSwiftKing/YoFoundation'
+# s.screenshots    = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+# 项目遵守的协议
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+# 作者的邮箱
+s.author           = { 'Yo' => '738816656@qq.com' }
+# git仓库的https地址
+s.source           = { :git => 'https://github.com/YoSwiftKing/YoFoundation.git', :tag => s.version.to_s }
+# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+# 项目的最低版本支持
+s.ios.deployment_target = '9.0'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/YoSwiftKing/YoFoundation'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'YoSwiftKing' => '206321073@qq.com' }
-  s.source           = { :git => 'https://github.com/YoSwiftKing/YoFoundation.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'YoFoundation/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'YoFoundation' => ['YoFoundation/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+# 子模块引用 https://www.jianshu.com/p/951952f3be7a
+# YoString
+s.subspec 'YoString+Normal'  do |ss|
+ss.source_files = 'YoFoundation/Classes/YoString/YoString+Normal/**/*'
+#ss.dependency 'YoSwiftUIKit/xxxx'
 end
+
+# YoString -判断邮箱
+s.subspec 'YoString+Email'  do |ss|
+ss.source_files = 'YoFoundation/Classes/YoString/YoString+Email/**/*'
+end
+# YoString 算高度 宽度
+s.subspec 'YoString+Size'  do |ss|
+ss.source_files = 'YoFoundation/Classes/YoString/YoString+Size/**/*'
+#ss.dependency 'YoCommon/Configure'
+
+end
+# YoString - 生成视图控制器
+s.subspec 'YoString+ViewCtlt'  do |ss|
+ss.source_files = 'YoFoundation/Classes/YoString/YoString+ViewCtl/**/*'
+#ss.dependency 'YoCommon/Configure'
+
+end
+# YoNSObject - 获取类名
+s.subspec 'YoNSObject+ClassName'  do |ss|
+ss.source_files = 'YoFoundation/Classes/YoNSObject/YoNSObject+ClassName/**/*'
+#ss.dependency 'YoCommon/Configure'
+
+end
+
+# YoCGFloat - 获取系统相关高度
+s.subspec 'YoCGFloat+Hight'  do |ss|
+ss.source_files = 'YoFoundation/Classes/YoCGFloat/YoCGFloat+Hight/**/*'
+#ss.dependency 'YoCommon/Configure'
+end
+
+end
+

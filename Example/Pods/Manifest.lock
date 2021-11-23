@@ -1,0 +1,28 @@
+PODS:
+  - YoFoundation (0.1.1):
+    - "YoFoundation/YoCGFloat+Hight (= 0.1.1)"
+    - "YoFoundation/YoNSObject+ClassName (= 0.1.1)"
+    - "YoFoundation/YoString+Email (= 0.1.1)"
+    - "YoFoundation/YoString+Normal (= 0.1.1)"
+    - "YoFoundation/YoString+Size (= 0.1.1)"
+    - "YoFoundation/YoString+ViewCtlt (= 0.1.1)"
+  - "YoFoundation/YoCGFloat+Hight (0.1.1)"
+  - "YoFoundation/YoNSObject+ClassName (0.1.1)"
+  - "YoFoundation/YoString+Email (0.1.1)"
+  - "YoFoundation/YoString+Normal (0.1.1)"
+  - "YoFoundation/YoString+Size (0.1.1)"
+  - "YoFoundation/YoString+ViewCtlt (0.1.1)"
+
+DEPENDENCIES:
+  - YoFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  YoFoundation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YoFoundation: 7155a189b34bb60389eaef859219519455ecd1b8
+
+PODFILE CHECKSUM: 22abcebf9701b98c6a4b1ff642310347a90a4ed9
+
+COCOAPODS: 1.11.2

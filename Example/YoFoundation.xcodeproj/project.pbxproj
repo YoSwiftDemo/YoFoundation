@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		2F58E6D27D031007A99117CA /* Pods-YoFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoFoundation_Tests.release.xcconfig"; path = "Target Support Files/Pods-YoFoundation_Tests/Pods-YoFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		483C9E54C0C539AE124FE612 /* Pods_YoFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56588EADD740241F63B69BFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		59053A2B0196A4BF2B969C6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		56588EADD740241F63B69BFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		59053A2B0196A4BF2B969C6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* YoFoundation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoFoundation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		975D263870821A1493F67152 /* Pods_YoFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoFoundation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA6E62A746DBFF9C9BBBF7C1 /* YoFoundation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YoFoundation.podspec; path = ../YoFoundation.podspec; sourceTree = "<group>"; };
+		BA6E62A746DBFF9C9BBBF7C1 /* YoFoundation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YoFoundation.podspec; path = ../YoFoundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC3C34873BDEBA8F9C4EFF34 /* Pods-YoFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoFoundation_Example.release.xcconfig"; path = "Target Support Files/Pods-YoFoundation_Example/Pods-YoFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C2B802F6160EAF289B508C5A /* Pods-YoFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoFoundation_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YoFoundation_Tests/Pods-YoFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6014EFB2F5135630817A8BB /* Pods-YoFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoFoundation_Example.debug.xcconfig"; path = "Target Support Files/Pods-YoFoundation_Example/Pods-YoFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,7 +147,6 @@
 				C2B802F6160EAF289B508C5A /* Pods-YoFoundation_Tests.debug.xcconfig */,
 				2F58E6D27D031007A99117CA /* Pods-YoFoundation_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
