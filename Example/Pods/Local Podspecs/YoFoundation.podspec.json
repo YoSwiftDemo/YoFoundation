@@ -1,6 +1,6 @@
 {
   "name": "YoFoundation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Yo Foundation of swift",
   "description": "Foundation扩展",
   "homepage": "https://github.com/YoSwiftKing/YoFoundation",
@@ -13,12 +13,11 @@
   },
   "source": {
     "git": "https://github.com/YoSwiftKing/YoFoundation.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "default_subspecs": "YoString+Normal",
   "subspecs": [
     {
       "name": "YoString+Email",
@@ -35,6 +34,14 @@
     {
       "name": "YoString+Normal",
       "source_files": "YoFoundation/Classes/YoString/YoString+Normal/**/*"
+    },
+    {
+      "name": "YoNSObject+ClassName",
+      "source_files": "YoFoundation/Classes/YoNSObject/YoNSObject+ClassName/**/*"
+    },
+    {
+      "name": "YoCGFloat+Hight",
+      "source_files": "YoFoundation/Classes/YoCGFloat/YoCGFloat+Hight/**/*"
     }
   ]
 }
