@@ -21,9 +21,10 @@ s.source           = { :git => 'https://github.com/YoSwiftKing/YoFoundation.git'
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 # 项目的最低版本支持
 s.ios.deployment_target = '9.0'
-
+s.default_subspec = 'YoString+Normal'
 # 子模块引用 https://www.jianshu.com/p/951952f3be7a
 # YoString
+
 s.subspec 'YoString+Normal'  do |ss|
 ss.source_files = 'YoFoundation/Classes/YoString/YoString+Normal/**/*'
 #ss.dependency 'YoSwiftUIKit/xxxx'

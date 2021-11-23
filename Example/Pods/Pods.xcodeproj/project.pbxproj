@@ -9,30 +9,25 @@
 /* Begin PBXBuildFile section */
 		045679EDB7906E780ED1D7C6377455D4 /* Pods-YoFoundation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2733246A77C4420F50FCBF52EF8A89 /* Pods-YoFoundation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F734ABF7CF65307BB9B46B27BA33F59 /* Pods-YoFoundation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E198960A1A74783F9A107A8089598A2 /* Pods-YoFoundation_Example-dummy.m */; };
-		2AF280E635717ACE7D9B6874BD924995 /* YoString+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3686343BE627C4C469191CFC948F5177 /* YoString+Size.swift */; };
+		2A5D27E28B1182E78844D250EBFD9E27 /* YoFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CFD5CA2F57AA123C53208BAD29D747 /* YoFoundation-dummy.m */; };
 		35529BB75E6E842C82125DF94E743EED /* Pods-YoFoundation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1679A040E290DBCD3B05C10E7C390 /* Pods-YoFoundation_Tests-dummy.m */; };
-		3BA812BC3F2A83FBCFAEBC3C7A0E67D0 /* YoString+Normal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83738F150C0BB9EA8BE774B6B7631A8B /* YoString+Normal.swift */; };
-		3EBB61DAE4119BB9BDAD4C2306376B4E /* YoFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54DE442797468C37B99326EF809DD544 /* YoFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CC7B3FE20CF65E9D8EE6CC9741E1931 /* YoNSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F44F505E24C2BCAFAB715EB12BFFAF3 /* YoNSObject+ClassName.swift */; };
-		4D40CD7F10914931848BEA7264FB4350 /* YoCGFloat+Hight.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD8254ACA1A35258F2D6F66899A3634 /* YoCGFloat+Hight.swift */; };
+		36F0E48FA4AC5C73A5B18AB1385F802B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4C62D67C19F16507202861D939961363 /* YoFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F98F4D4557E97C6DA841BB919A5D69B4 /* YoFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A87A4B34FC8223FB52D88BCA68CFB6C /* Pods-YoFoundation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAAFB31C2A52E361D4931E537F55FAAE /* Pods-YoFoundation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		681ADE5EAAF1417B9C1643DA08CC6770 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6FA5716B4158F0EA5BECE4F5A3D4E207 /* YoString+Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3311E2514EA5E8073995A10FEE33F /* YoString+Email.swift */; };
+		938CBDCD45FF44CF473611AE8DD91CE0 /* YoString+Normal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F787D8AA7895703A0C22209CDE059C /* YoString+Normal.swift */; };
 		D200BAE87D9E248EE8BDDDA4073A4633 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D588629639AFA83A144402CEFE74C07D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F495152FAE1A1A4C34C8EE19FED1FFC9 /* YoString+ViewCtl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33E615AD9D52399FC738AC10E3563F5 /* YoString+ViewCtl.swift */; };
-		F558082549BBAE989037D85AE462E7AC /* YoFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D56A4AA12566F3F9D7920FF398828FC0 /* YoFoundation-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		16104F3AD955C381629335F96F195E61 /* PBXContainerItemProxy */ = {
+		20D1928A8ABC8392E333E85CC93D44A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EA624B5F37DF139767365B9C367C1598;
 			remoteInfo = YoFoundation;
 		};
-		AFFA1F1027B1F2A28BBC52D18FB53E71 /* PBXContainerItemProxy */ = {
+		B69189B6C5B42F9C8D3077831ABFEE60 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -45,52 +40,39 @@
 		062FD2F05610CFFB7A4A94E7880D9C72 /* Pods-YoFoundation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YoFoundation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		069974E879524819BF820A4329429E67 /* Pods-YoFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YoFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		110A1B800E93A2C36EA634DC53790D4B /* Pods-YoFoundation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YoFoundation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2F5A081F63DFEF696BFAEA8AD75CFCC3 /* YoFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YoFoundation-Info.plist"; sourceTree = "<group>"; };
-		3686343BE627C4C469191CFC948F5177 /* YoString+Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "YoString+Size.swift"; path = "YoFoundation/Classes/YoString/YoString+Size/YoString+Size.swift"; sourceTree = "<group>"; };
+		20CFD5CA2F57AA123C53208BAD29D747 /* YoFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YoFoundation-dummy.m"; sourceTree = "<group>"; };
 		3717BB5C591E079618E36472597944A5 /* Pods-YoFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YoFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4401933D298DE33D4CB710A7A9B76261 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4C6BCE6874762AB5EA40757906DC3E8B /* Pods-YoFoundation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YoFoundation_Example.modulemap"; sourceTree = "<group>"; };
 		4DF1679A040E290DBCD3B05C10E7C390 /* Pods-YoFoundation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YoFoundation_Tests-dummy.m"; sourceTree = "<group>"; };
 		4F0B3CEFBB3DBEFD9F99F4ABDFD6C53D /* Pods-YoFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YoFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4F2733246A77C4420F50FCBF52EF8A89 /* Pods-YoFoundation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YoFoundation_Tests-umbrella.h"; sourceTree = "<group>"; };
-		54DE442797468C37B99326EF809DD544 /* YoFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YoFoundation-umbrella.h"; sourceTree = "<group>"; };
+		50F787D8AA7895703A0C22209CDE059C /* YoString+Normal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "YoString+Normal.swift"; path = "YoFoundation/Classes/YoString/YoString+Normal/YoString+Normal.swift"; sourceTree = "<group>"; };
+		541ED123F61FCD6336F9DB6A0D2061E0 /* YoFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YoFoundation.debug.xcconfig; sourceTree = "<group>"; };
+		602476393AF3A82E6BF75491C75FF1A7 /* YoFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YoFoundation.release.xcconfig; sourceTree = "<group>"; };
 		67F13E3C6132D227A5CB23B42CF117EA /* YoFoundation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YoFoundation; path = YoFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72E0081D36AA5271B07D4B274EE1E6BA /* YoFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YoFoundation-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7407C3D98E5F86C1F5CE48AA8A87942F /* YoFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YoFoundation-prefix.pch"; sourceTree = "<group>"; };
-		77C13EA9494E381F2C08C1C438BD19C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7F44F505E24C2BCAFAB715EB12BFFAF3 /* YoNSObject+ClassName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "YoNSObject+ClassName.swift"; path = "YoFoundation/Classes/YoNSObject/YoNSObject+ClassName/YoNSObject+ClassName.swift"; sourceTree = "<group>"; };
-		83738F150C0BB9EA8BE774B6B7631A8B /* YoString+Normal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "YoString+Normal.swift"; path = "YoFoundation/Classes/YoString/YoString+Normal/YoString+Normal.swift"; sourceTree = "<group>"; };
+		8C34C843666A8817E5B42F4872DA4ADB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8D957231F6F94180253FB600DE3D300C /* Pods-YoFoundation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YoFoundation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9040AC9A079DC224D2ADD8A19D02C03F /* YoFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YoFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E198960A1A74783F9A107A8089598A2 /* Pods-YoFoundation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YoFoundation_Example-dummy.m"; sourceTree = "<group>"; };
 		A9E8EACD4819CF21C125906EBCA0EFA5 /* Pods-YoFoundation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YoFoundation_Tests.modulemap"; sourceTree = "<group>"; };
 		AAAFB31C2A52E361D4931E537F55FAAE /* Pods-YoFoundation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YoFoundation_Example-umbrella.h"; sourceTree = "<group>"; };
+		B10FC62711C92B697923D1778D7C5F5A /* YoFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YoFoundation.modulemap; sourceTree = "<group>"; };
 		B64ED61E1D3DB4F70751450712760CDD /* Pods-YoFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YoFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BAD8254ACA1A35258F2D6F66899A3634 /* YoCGFloat+Hight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "YoCGFloat+Hight.swift"; path = "YoFoundation/Classes/YoCGFloat/YoCGFloat+Hight/YoCGFloat+Hight.swift"; sourceTree = "<group>"; };
-		BAF1E38E17D36753DCD24EA8EAFB0F15 /* YoFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YoFoundation.debug.xcconfig; sourceTree = "<group>"; };
 		C3220E2093C3A79C688A9547E16E2E13 /* Pods-YoFoundation_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YoFoundation_Tests"; path = Pods_YoFoundation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB2E63AAFC6998508E5A0B6EE7B99ACE /* Pods-YoFoundation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YoFoundation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CFE203ABC80E7C032774981B6F5885BB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D1A366997DED51C6A972A2E1E296F042 /* Pods-YoFoundation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YoFoundation_Tests-Info.plist"; sourceTree = "<group>"; };
-		D1E3311E2514EA5E8073995A10FEE33F /* YoString+Email.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "YoString+Email.swift"; path = "YoFoundation/Classes/YoString/YoString+Email/YoString+Email.swift"; sourceTree = "<group>"; };
-		D33E615AD9D52399FC738AC10E3563F5 /* YoString+ViewCtl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "YoString+ViewCtl.swift"; path = "YoFoundation/Classes/YoString/YoString+ViewCtl/YoString+ViewCtl.swift"; sourceTree = "<group>"; };
-		D56A4AA12566F3F9D7920FF398828FC0 /* YoFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YoFoundation-dummy.m"; sourceTree = "<group>"; };
-		D5B70261E1280BB7AA9A2663D04C329A /* YoFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YoFoundation.release.xcconfig; sourceTree = "<group>"; };
 		DEB10DEA6E5A42AAC05A6D5B455C6619 /* Pods-YoFoundation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YoFoundation_Example-Info.plist"; sourceTree = "<group>"; };
+		E6417A33E0A3D1346917B6AB43D4C345 /* YoFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YoFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E94A56A0558365D9EC7A28188FF4D1E6 /* Pods-YoFoundation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YoFoundation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EC649ED32CEB20A785A53ABA9B379160 /* YoFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YoFoundation-prefix.pch"; sourceTree = "<group>"; };
 		F34EE6D1D44B401127C3A759B27D4A73 /* Pods-YoFoundation_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YoFoundation_Example"; path = Pods_YoFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBF3B3092945581D14C4518C61FF21FE /* YoFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YoFoundation.modulemap; sourceTree = "<group>"; };
+		F98F4D4557E97C6DA841BB919A5D69B4 /* YoFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YoFoundation-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		163DCE7208FA2AA702A94EC0E68BBCE7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D588629639AFA83A144402CEFE74C07D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1DA70FEF5C4EB86F5B32E0A084CBDCDB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -107,25 +89,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		66AC235B1FE0DF7AF9064B02B39676F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F0E48FA4AC5C73A5B18AB1385F802B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		089B59CE4B2C52EB59329D872020161F /* YoString+Email */ = {
-			isa = PBXGroup;
-			children = (
-				D1E3311E2514EA5E8073995A10FEE33F /* YoString+Email.swift */,
-			);
-			name = "YoString+Email";
-			sourceTree = "<group>";
-		};
-		131C9C290F74171CBE0BF8584376156A /* YoCGFloat+Hight */ = {
-			isa = PBXGroup;
-			children = (
-				BAD8254ACA1A35258F2D6F66899A3634 /* YoCGFloat+Hight.swift */,
-			);
-			name = "YoCGFloat+Hight";
-			sourceTree = "<group>";
-		};
 		4840FA2E6E820A75670E669208B124C4 /* Pods-YoFoundation_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,36 +117,12 @@
 			path = "Target Support Files/Pods-YoFoundation_Example";
 			sourceTree = "<group>";
 		};
-		4E8432B0C1F37BB9B21C19368731D52C /* YoString+Normal */ = {
-			isa = PBXGroup;
-			children = (
-				83738F150C0BB9EA8BE774B6B7631A8B /* YoString+Normal.swift */,
-			);
-			name = "YoString+Normal";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		607A8CC04FDE210BEE25FE5706EB815C /* YoString+Size */ = {
-			isa = PBXGroup;
-			children = (
-				3686343BE627C4C469191CFC948F5177 /* YoString+Size.swift */,
-			);
-			name = "YoString+Size";
-			sourceTree = "<group>";
-		};
-		6EB14C7D5A8804F7E030B9E5AEC6A3C4 /* YoNSObject+ClassName */ = {
-			isa = PBXGroup;
-			children = (
-				7F44F505E24C2BCAFAB715EB12BFFAF3 /* YoNSObject+ClassName.swift */,
-			);
-			name = "YoNSObject+ClassName";
 			sourceTree = "<group>";
 		};
 		701BD219FB4568A0FBDD9DEB0AFD521D /* Pods-YoFoundation_Tests */ = {
@@ -191,17 +141,12 @@
 			path = "Target Support Files/Pods-YoFoundation_Tests";
 			sourceTree = "<group>";
 		};
-		7E79A0A41C8037813660191D382E0367 /* YoFoundation */ = {
+		81A921A797F821598E74D944A447CA26 /* YoFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				A152F741A8A06F761DE1785E3880BF63 /* Pod */,
-				AF9D84B99BA76158194832967A412BDB /* Support Files */,
-				131C9C290F74171CBE0BF8584376156A /* YoCGFloat+Hight */,
-				6EB14C7D5A8804F7E030B9E5AEC6A3C4 /* YoNSObject+ClassName */,
-				089B59CE4B2C52EB59329D872020161F /* YoString+Email */,
-				4E8432B0C1F37BB9B21C19368731D52C /* YoString+Normal */,
-				607A8CC04FDE210BEE25FE5706EB815C /* YoString+Size */,
-				F3DE1BE3CA3503E03F57057606AA3F26 /* YoString+ViewCtlt */,
+				E1088A31EC89C12D2742BE8C8C06F79D /* Pod */,
+				DDAA5AE8B666B7C9A1D40524B02B3FDE /* Support Files */,
+				A6B14F8A255207DB736055EBDD8A62B1 /* YoString+Normal */,
 			);
 			name = YoFoundation;
 			path = ../..;
@@ -217,35 +162,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A152F741A8A06F761DE1785E3880BF63 /* Pod */ = {
+		A6B14F8A255207DB736055EBDD8A62B1 /* YoString+Normal */ = {
 			isa = PBXGroup;
 			children = (
-				77C13EA9494E381F2C08C1C438BD19C4 /* LICENSE */,
-				CFE203ABC80E7C032774981B6F5885BB /* README.md */,
-				9040AC9A079DC224D2ADD8A19D02C03F /* YoFoundation.podspec */,
+				50F787D8AA7895703A0C22209CDE059C /* YoString+Normal.swift */,
 			);
-			name = Pod;
+			name = "YoString+Normal";
 			sourceTree = "<group>";
 		};
-		AF9D84B99BA76158194832967A412BDB /* Support Files */ = {
+		AE008DC0E948329549936BA5049E4EBC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FBF3B3092945581D14C4518C61FF21FE /* YoFoundation.modulemap */,
-				D56A4AA12566F3F9D7920FF398828FC0 /* YoFoundation-dummy.m */,
-				2F5A081F63DFEF696BFAEA8AD75CFCC3 /* YoFoundation-Info.plist */,
-				7407C3D98E5F86C1F5CE48AA8A87942F /* YoFoundation-prefix.pch */,
-				54DE442797468C37B99326EF809DD544 /* YoFoundation-umbrella.h */,
-				BAF1E38E17D36753DCD24EA8EAFB0F15 /* YoFoundation.debug.xcconfig */,
-				D5B70261E1280BB7AA9A2663D04C329A /* YoFoundation.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YoFoundation";
-			sourceTree = "<group>";
-		};
-		C2042915120A37EBBB7D4A3B2E799A2E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7E79A0A41C8037813660191D382E0367 /* YoFoundation */,
+				81A921A797F821598E74D944A447CA26 /* YoFoundation */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -254,7 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C2042915120A37EBBB7D4A3B2E799A2E /* Development Pods */,
+				AE008DC0E948329549936BA5049E4EBC /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				8512BC2164CBA5FEFEE8C041B7F0A35B /* Products */,
 				DBF8F1C6AAC915A41C39DF1D2DE5AD23 /* Targets Support Files */,
@@ -278,25 +206,34 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F3DE1BE3CA3503E03F57057606AA3F26 /* YoString+ViewCtlt */ = {
+		DDAA5AE8B666B7C9A1D40524B02B3FDE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D33E615AD9D52399FC738AC10E3563F5 /* YoString+ViewCtl.swift */,
+				B10FC62711C92B697923D1778D7C5F5A /* YoFoundation.modulemap */,
+				20CFD5CA2F57AA123C53208BAD29D747 /* YoFoundation-dummy.m */,
+				72E0081D36AA5271B07D4B274EE1E6BA /* YoFoundation-Info.plist */,
+				EC649ED32CEB20A785A53ABA9B379160 /* YoFoundation-prefix.pch */,
+				F98F4D4557E97C6DA841BB919A5D69B4 /* YoFoundation-umbrella.h */,
+				541ED123F61FCD6336F9DB6A0D2061E0 /* YoFoundation.debug.xcconfig */,
+				602476393AF3A82E6BF75491C75FF1A7 /* YoFoundation.release.xcconfig */,
 			);
-			name = "YoString+ViewCtlt";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YoFoundation";
+			sourceTree = "<group>";
+		};
+		E1088A31EC89C12D2742BE8C8C06F79D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8C34C843666A8817E5B42F4872DA4ADB /* LICENSE */,
+				4401933D298DE33D4CB710A7A9B76261 /* README.md */,
+				E6417A33E0A3D1346917B6AB43D4C345 /* YoFoundation.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0E0FEF1AABF0CED1B0783D68445296F3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3EBB61DAE4119BB9BDAD4C2306376B4E /* YoFoundation-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		985021BA7241F8E21D344A5FE6EC20EA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -310,6 +247,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				045679EDB7906E780ED1D7C6377455D4 /* Pods-YoFoundation_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA999A0840EA493597D543069EF987B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C62D67C19F16507202861D939961363 /* YoFoundation-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +273,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				122B7AC83C9EBA4BC93DAB579C3A08E1 /* PBXTargetDependency */,
+				DEE9A054A1080407B09BD623DB41D55D /* PBXTargetDependency */,
 			);
 			name = "Pods-YoFoundation_Tests";
 			productName = Pods_YoFoundation_Tests;
@@ -347,7 +292,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				158E420A34BE3CB9CFC53279D6E9B716 /* PBXTargetDependency */,
+				4CABF8C5CEFAC4E504A225A0A0840941 /* PBXTargetDependency */,
 			);
 			name = "Pods-YoFoundation_Example";
 			productName = Pods_YoFoundation_Example;
@@ -356,12 +301,12 @@
 		};
 		EA624B5F37DF139767365B9C367C1598 /* YoFoundation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30811D070EBB49806670E358C498FD86 /* Build configuration list for PBXNativeTarget "YoFoundation" */;
+			buildConfigurationList = 5368DA5D7A228F0249AB8D97E7962858 /* Build configuration list for PBXNativeTarget "YoFoundation" */;
 			buildPhases = (
-				0E0FEF1AABF0CED1B0783D68445296F3 /* Headers */,
-				C015B6D40C10548C4B3AE85A91878522 /* Sources */,
-				163DCE7208FA2AA702A94EC0E68BBCE7 /* Frameworks */,
-				80E0AEC6D2F4EC07172F499D5B46EB08 /* Resources */,
+				EA999A0840EA493597D543069EF987B7 /* Headers */,
+				1EE108B95695C6D743FE4A502F55DE2D /* Sources */,
+				66AC235B1FE0DF7AF9064B02B39676F5 /* Frameworks */,
+				EBDA88F547E879EC11879676F3E73983 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -402,13 +347,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		80E0AEC6D2F4EC07172F499D5B46EB08 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C828020421A096D9F1ECC0401EF95772 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -423,28 +361,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EBDA88F547E879EC11879676F3E73983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1EE108B95695C6D743FE4A502F55DE2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5D27E28B1182E78844D250EBFD9E27 /* YoFoundation-dummy.m in Sources */,
+				938CBDCD45FF44CF473611AE8DD91CE0 /* YoString+Normal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		518FC8430C4CDCF2D5C9AC003E147AED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				35529BB75E6E842C82125DF94E743EED /* Pods-YoFoundation_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C015B6D40C10548C4B3AE85A91878522 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D40CD7F10914931848BEA7264FB4350 /* YoCGFloat+Hight.swift in Sources */,
-				F558082549BBAE989037D85AE462E7AC /* YoFoundation-dummy.m in Sources */,
-				4CC7B3FE20CF65E9D8EE6CC9741E1931 /* YoNSObject+ClassName.swift in Sources */,
-				6FA5716B4158F0EA5BECE4F5A3D4E207 /* YoString+Email.swift in Sources */,
-				3BA812BC3F2A83FBCFAEBC3C7A0E67D0 /* YoString+Normal.swift in Sources */,
-				2AF280E635717ACE7D9B6874BD924995 /* YoString+Size.swift in Sources */,
-				F495152FAE1A1A4C34C8EE19FED1FFC9 /* YoString+ViewCtl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,17 +399,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		122B7AC83C9EBA4BC93DAB579C3A08E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-YoFoundation_Example";
-			target = C202A23AF74C950027718E27B029AF5B /* Pods-YoFoundation_Example */;
-			targetProxy = AFFA1F1027B1F2A28BBC52D18FB53E71 /* PBXContainerItemProxy */;
-		};
-		158E420A34BE3CB9CFC53279D6E9B716 /* PBXTargetDependency */ = {
+		4CABF8C5CEFAC4E504A225A0A0840941 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YoFoundation;
 			target = EA624B5F37DF139767365B9C367C1598 /* YoFoundation */;
-			targetProxy = 16104F3AD955C381629335F96F195E61 /* PBXContainerItemProxy */;
+			targetProxy = 20D1928A8ABC8392E333E85CC93D44A8 /* PBXContainerItemProxy */;
+		};
+		DEE9A054A1080407B09BD623DB41D55D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YoFoundation_Example";
+			target = C202A23AF74C950027718E27B029AF5B /* Pods-YoFoundation_Example */;
+			targetProxy = B69189B6C5B42F9C8D3077831ABFEE60 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -573,36 +513,6 @@
 			};
 			name = Debug;
 		};
-		661BFAC4350CF00CFC69B03EEF29EB55 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAF1E38E17D36753DCD24EA8EAFB0F15 /* YoFoundation.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YoFoundation/YoFoundation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YoFoundation/YoFoundation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YoFoundation/YoFoundation.modulemap";
-				PRODUCT_MODULE_NAME = YoFoundation;
-				PRODUCT_NAME = YoFoundation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		85E2CCBC094BFE0F3181D4662ADF8C45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3717BB5C591E079618E36472597944A5 /* Pods-YoFoundation_Tests.release.xcconfig */;
@@ -636,6 +546,36 @@
 			};
 			name = Release;
 		};
+		90028E02032255C9CBAA80A24F1CE648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 541ED123F61FCD6336F9DB6A0D2061E0 /* YoFoundation.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YoFoundation/YoFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YoFoundation/YoFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YoFoundation/YoFoundation.modulemap";
+				PRODUCT_MODULE_NAME = YoFoundation;
+				PRODUCT_NAME = YoFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		A89A49A021CB381967DC75D0EA595158 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4F0B3CEFBB3DBEFD9F99F4ABDFD6C53D /* Pods-YoFoundation_Example.debug.xcconfig */;
@@ -667,6 +607,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		AC633AF7CCF309E07C37381E1744391D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602476393AF3A82E6BF75491C75FF1A7 /* YoFoundation.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YoFoundation/YoFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YoFoundation/YoFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YoFoundation/YoFoundation.modulemap";
+				PRODUCT_MODULE_NAME = YoFoundation;
+				PRODUCT_NAME = YoFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -762,54 +733,23 @@
 			};
 			name = Debug;
 		};
-		DF939DDAED879BA51964BE435F042B59 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5B70261E1280BB7AA9A2663D04C329A /* YoFoundation.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YoFoundation/YoFoundation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YoFoundation/YoFoundation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YoFoundation/YoFoundation.modulemap";
-				PRODUCT_MODULE_NAME = YoFoundation;
-				PRODUCT_NAME = YoFoundation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30811D070EBB49806670E358C498FD86 /* Build configuration list for PBXNativeTarget "YoFoundation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				661BFAC4350CF00CFC69B03EEF29EB55 /* Debug */,
-				DF939DDAED879BA51964BE435F042B59 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5368DA5D7A228F0249AB8D97E7962858 /* Build configuration list for PBXNativeTarget "YoFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90028E02032255C9CBAA80A24F1CE648 /* Debug */,
+				AC633AF7CCF309E07C37381E1744391D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
