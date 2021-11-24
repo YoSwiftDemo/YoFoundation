@@ -1,7 +1,7 @@
 PODS:
-  - YoFoundation (0.1.1):
-    - "YoFoundation/YoString+Normal (= 0.1.1)"
-  - "YoFoundation/YoString+Normal (0.1.1)"
+  - YoFoundation (0.1.2):
+    - "YoFoundation/YoString+Normal (= 0.1.2)"
+  - "YoFoundation/YoString+Normal (0.1.2)"
 
 DEPENDENCIES:
   - YoFoundation (from `../`)
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YoFoundation: 9d45237a7ae06aa319cb39ed3669aae50614c9be
+  YoFoundation: 3fb495ffc4ee7353de6f5930b301c5024311bec2
 
 PODFILE CHECKSUM: 22abcebf9701b98c6a4b1ff642310347a90a4ed9
 

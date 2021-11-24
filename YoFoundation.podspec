@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 # 项目名
 s.name             = 'YoFoundation'
 # 版本号
-s.version          = '0.1.1'
+s.version          = '0.1.2'
 # 简单描述
 s.summary          = 'Yo Foundation of swift'
 # 详细描述
@@ -21,8 +21,8 @@ s.source           = { :git => 'https://github.com/YoSwiftKing/YoFoundation.git'
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 # 项目的最低版本支持
 s.ios.deployment_target = '9.0'
+#默认子模块
 s.default_subspec = 'YoString+Normal'
-
 # 子模块引用 https://www.jianshu.com/p/951952f3be7a
 # YoString
 s.subspec 'YoString+Normal'  do |ss|

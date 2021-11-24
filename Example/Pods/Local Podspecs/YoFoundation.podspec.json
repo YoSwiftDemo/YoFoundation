@@ -1,6 +1,6 @@
 {
   "name": "YoFoundation",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "Yo Foundation of swift",
   "description": "Swift Foundation扩展",
   "homepage": "https://github.com/YoSwiftKing/YoFoundation",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/YoSwiftKing/YoFoundation.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"
@@ -33,7 +33,7 @@
       "source_files": "YoFoundation/Classes/YoString/YoString+Size/**/*"
     },
     {
-      "name": "YoString+ViewCtlt",
+      "name": "YoString+ViewCtl",
       "source_files": "YoFoundation/Classes/YoString/YoString+ViewCtl/**/*"
     },
     {
